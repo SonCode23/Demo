@@ -185,6 +185,7 @@ $(document).on("click",".delete-product", function () {
   // renderCart(cart);
   if(cart.length>0){
     renderCart(cart);
+  
   }
   else{
     removeCart(cart);
@@ -201,4 +202,3 @@ function removeCart(cart){
 </ul>`).appendTo(".content_pane");
 $(".count-cart").text(cart.length);
 }
-

@@ -3610,4 +3610,99 @@ footer .container .crossbar {
 footer .container .footer-element2 {
   padding-bottom: 20px;
 }
+
+.toast-wrapper .toast {
+  position: fixed !important;
+  left: 10px !important;
+  bottom: 10px !important;
+  position: absolute;
+  width: 500px;
+  bottom: 100%;
+  z-index: 100000;
+}
+
+.toast-wrapper .toast .toast-header strong {
+  color: #222;
+}
+
+.toast-wrapper .toast .toast-header small {
+  color: #222;
+}
+
+.toast-wrapper .toast .toast-header small .amout-toast {
+  margin-left: 5px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 18px 0px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart > a {
+  width: 90px;
+  height: 90px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart > a img {
+  width: 90px;
+  height: 90px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart a {
+  color: #222;
+  font-weight: 400;
+  font-size: 17.15px;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart a:hover {
+  color: #28a745;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart .quantity-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart .quantity-price .quantity {
+  margin-right: 5px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .infor-product-in-cart .quantity-price .price {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .delete-product {
+  color: #28a745;
+  font-size: 16px;
+  height: 25px;
+}
+
+.toast-wrapper .toast .toast-body .product-in-cart .delete-product:hover {
+  color: #222;
+}
 /*# sourceMappingURL=style.css.map */
